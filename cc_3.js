@@ -2,11 +2,11 @@
 
 //Implement a car class with a constructor that initializes the make (brand of the car) and the speed (curren speed in km/h) properites.
 
-accelerate_kmh = 10
-brake_kmh = 5
+const accelerate_kmh = 10
+const brake_kmh = 5
 
 class Car {
-    constructor(make, accelerate_kmh) {
+    constructor(make, current_kmh) {
       this.make = make;
       this.current_kmh = Number(this.current_kmh);
     }
@@ -38,8 +38,10 @@ console.log("Testing Car 1:");
 car1.accelerate();
 car1.accelerate();
 car1.brake();
+car1.brake();
 
 console.log("Testing Car 2:");
+car2.accelerate();
 car2.accelerate();
 car2.brake();
 car2.brake();
