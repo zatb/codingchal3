@@ -10,5 +10,14 @@ class Car {
       this.make = make;
       this.current_kmh = Number(this.current_kmh);
     }
- }
+
+    //Implement an accelerate method in the Car class that increases the car's speed by 10 km/h and logs the new speed to the console.
+
+accelerate(){
+    this.current_kmh += accelerate_kmh;
+    console.log ("The new speed of the " + this.make + " after accelerating " + accelerate_kmh + "KM/h is" + this.current_kmh + "KM/h");
+}
+
+
+}
   
