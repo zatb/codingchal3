@@ -15,7 +15,14 @@ class Car {
 
 accelerate(){
     this.current_kmh += accelerate_kmh;
-    console.log ("The new speed of the " + this.make + " after accelerating " + accelerate_kmh + "KM/h is" + this.current_kmh + "KM/h");
+    console.log ("The new speed of the " + this.make + " after accelerating " + accelerate_kmh + "KM/h is" + this.current_kmh + "KM/h.");
+}
+
+//Implement a brake method that decreases the car's speed by 5 km/h and logs the new speed to the console.
+
+brake(){
+    this.current_kmh -= brake_kmh;
+    console.log ("The new speed of the " + this.make + "after breaking" + brake_kmh + "KM/h is" + this.current_kmh + "KM/h.");
 }
 
 
